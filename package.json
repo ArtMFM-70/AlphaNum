@@ -1,0 +1,33 @@
+{
+  "name": "alpha-num",
+  "version": "0.9.1",
+  "description": "a lightweight JavaScript utility for encoding and decoding alphanumeric text into numeric representations.",
+  "main": "alpha-num.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "alpha",
+    "numeric",
+    "alphanumeric",
+    "encode",
+    "decode",
+    "converter",
+    "string",
+    "number",
+    "alphabet",
+    "utility",
+    "javascript",
+    "text-utility"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtMFM-70/AlphaNum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ArtMFM-70/AlphaNum/issues"
+  },
+  "homepage": "https://github.com/ArtMFM-70/AlphaNum#readme",
+  "author": "ArtMFM-70",
+  "license": " Apache-2.0"
+}
