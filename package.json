@@ -8,6 +8,9 @@
     "alpha-num.min.js",
     "README.md"
   ],
+  "script": {
+    "test": "node test.js"
+  },
   "keywords": [
     "alpha",
     "numeric",
