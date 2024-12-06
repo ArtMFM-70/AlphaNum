@@ -1,7 +1,7 @@
 # AlphaNum
 
 **AlphaNum** is a lightweight JavaScript utility for encoding and decoding alphanumeric text into numeric representations. It maps letters to their positions in the alphabet and converts them back.
-
+// need help for publishing
 ## Features
 
 - Converts letters (a-z) to numeric positions (1-26).
