@@ -9,7 +9,7 @@ class AlphaNum {
         return charCode >= 97 && charCode <= 122 ? charCode - 96 : char;
       })
       .join("-")
-      .replace(/- -/g, " "); // Convert space delimiters to single spaces
+      .replace(/- -/g, " ");
   }
   static decode(code) {
     return code

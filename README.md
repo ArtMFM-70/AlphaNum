@@ -1,7 +1,10 @@
 # AlphaNum
 
+[![Version](https://img.shields.io/npm/v/@starc347/alpha-num.svg)](https://www.npmjs.com/package/@starc347/alpha-num)
+[![Downloads](https://img.shields.io/npm/dm/@starc347/alpha-num.svg)](https://www.npmjs.com/package/@starc347/alpha-num)
+
 **AlphaNum** is a lightweight JavaScript utility for encoding and decoding alphanumeric text into numeric representations. It maps letters to their positions in the alphabet and converts them back.
-// need help for publishing
+
 ## Features
 
 - Converts letters (a-z) to numeric positions (1-26).
@@ -17,14 +20,15 @@
 Install the package using npm:
 
 ```sh
-npm install alpha-num
+npm install @starc347/alpha-num
 ```
 
 ## Usage
+
 Import the package in your project:
 
 ```js
-const AlphaNum = require("alpha-num");
+const AlphaNum = require("@starc347/alpha-num");
 ```
 
 ### Encoding
@@ -51,7 +55,7 @@ console.log(decoded); // Output: hello world
 const AlphaNum = require("alpha-num");
 
 // Encode a message
-var message = "hello world"
+var message = "hello world";
 const encoded_message = AlphaNum.encode(message);
 console.log("Encoded:", encoded_message); // Output: 8-5-12-12-15 23-15-18-12-4
 
