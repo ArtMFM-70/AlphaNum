@@ -1,15 +1,28 @@
 {
   "name": "@starc347/alpha-num",
-  "version": "0.9.1",
-  "description": "a lightweight JavaScript utility for encoding and decoding alphanumeric text into numeric representations.",
-  "main": "alpha-num.js",
+  "version": "0.9.3",
+  "description": "A lightweight JavaScript utility for encoding and decoding alphanumeric text into numeric representations.",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/alpha-num.umd.js",
+  "module": "./dist/alpha-num.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/alpha-num.es.js",
+      "require": "./dist/alpha-num.umd.js"
+    }
+  },
   "files": [
-    "alpha-num.js",
-    "alpha-num.min.js",
+    "dist/alpha-num.umd.js",
+    "dist/alpha-num.es.js",
     "README.md"
   ],
-  "script": {
-    "test": "node test.js"
+  "scripts": {
+    "build": "npx prettier -w . && vite build",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "vite": "^6.0.3"
   },
   "keywords": [
     "alpha",
@@ -27,13 +40,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArtMFM-70/AlphaNum.git"
+    "url": "https://github.com/ArtMFM-70/AlphaNum.git"
   },
   "bugs": {
     "url": "https://github.com/ArtMFM-70/AlphaNum/issues"
   },
   "homepage": "https://github.com/ArtMFM-70/AlphaNum#readme",
-  "author": "ArtMFM-70 (https://github.com/ArtMFM-70)",
+  "author": {
+    "name": "ArtMFM-70",
+    "url": "https://github.com/ArtMFM-70"
+  },
   "contributors": [
     {
       "name": "Farhan Madni",
@@ -41,5 +57,5 @@
       "url": "https://github.com/MFM-347"
     }
   ],
-  "license": " Apache-2.0"
+  "license": "Apache-2.0"
 }

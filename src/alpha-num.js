@@ -29,4 +29,4 @@ class AlphaNum {
   }
 }
 
-module.exports = AlphaNum;
+export default AlphaNum;
